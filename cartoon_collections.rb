@@ -5,10 +5,9 @@ def roll_call_dwarves(dwarves)
   while i < dwarves.length
     print "#{dwarves.each_with_index}"
     i += 1
-    binding.pry
   end
 end
-
+binding.pry
 def summon_captain_planet# code an argument here
   # Your code here
 end
