@@ -5,6 +5,7 @@ def roll_call_dwarves(dwarves)
   while i < dwarves.length
     puts dwarves.each_with_index
     i += 1
+    binding.pry
   end
 end
 
