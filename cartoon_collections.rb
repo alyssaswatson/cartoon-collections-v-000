@@ -1,11 +1,10 @@
-require 'pry'
+
 
 def roll_call_dwarves(dwarves)
   i = 0
   while i < dwarves.length
     puts dwarves.each_with_index
     i += 1
-    binding.pry
   end
   dwarves
 end
