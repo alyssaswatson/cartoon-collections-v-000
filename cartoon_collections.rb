@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   i = 0
   while i < dwarves.length
-    prints "#{dwarves.each_with_index}"
+    print "#{dwarves.each_with_index}"
     i += 1
   end
 end
