@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
     new_dwarves << yield.each_with_index
     i += 1
   end
-  ne_dwarves
+  new_dwarves
 end
 
 def summon_captain_planet# code an argument here
