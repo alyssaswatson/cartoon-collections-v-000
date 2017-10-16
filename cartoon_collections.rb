@@ -7,6 +7,7 @@ def roll_call_dwarves(dwarves)
     i += 1
     binding.pry
   end
+  dwarves
 end
 
 def summon_captain_planet# code an argument here
