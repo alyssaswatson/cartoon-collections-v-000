@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   i = 0
   while 1 < names.length
-    puts name.each_ewith_index
+    puts names.each_ewith_index
     i += 1
   end
 end
