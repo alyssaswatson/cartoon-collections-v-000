@@ -1,12 +1,11 @@
-
-
 def roll_call_dwarves(dwarves)
   i = 0
+  new_dwarves = []
   while i < dwarves.length
-    puts dwarves.each_with_index
+    new_dwarves << yield.each_with_index
     i += 1
   end
-  dwarves
+  ne_dwarves
 end
 
 def summon_captain_planet# code an argument here
